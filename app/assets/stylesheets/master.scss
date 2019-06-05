@@ -1,3 +1,5 @@
+@import "bootstrap";
+
 @import url('https://fonts.googleapis.com/css?family=Fjalla+One|Francois+One|Play');
 
 html, body, section {
@@ -6,7 +8,7 @@ html, body, section {
 body {
     color: #fff;
     text-align: center;
-    background-color: black;
+    background-color: white;
 }
 div {
     display: flex;
@@ -73,17 +75,9 @@ div {
     color: #333;
 }
 
-.logo {
-  position: absolute;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-  height: 250px;
-  width: 300px;
 
-}
+
+
 
 @media only screen and (max-width: 600px) {
   .xop-container {
